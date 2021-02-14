@@ -8,7 +8,6 @@ import numpy as np
 import mediapipe as mp
 
 from utils import CvFpsCalc
-from utils import AlarmThread
 
 import sys
 from plyer import notification
@@ -49,7 +48,7 @@ def do_alert(alert_title, alert_message):
     notification.notify(
         title = alert_title,
         message = alert_message,
-        app_name = "モニター監視"
+        app_name = "Exercize Alert"
         )
 
 def enqueue(ndarray, data):
@@ -201,7 +200,7 @@ def main():
                 elif repeat_alert_time ==1:
                     do_alert(alert_title, alert_message)
                 repeat_alert_time = round(repeat_alert_time + sampling_time, 1)
-                print(repeat_alert_time)
+                # print(repeat_alert_time)
         else:
             if is_exercise_state:
                 # if is_init_exercise_state:
