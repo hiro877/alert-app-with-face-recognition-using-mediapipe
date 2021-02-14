@@ -1,7 +1,7 @@
 # alert-app-with-face-recognition-using-mediapipe
 ## mediapipe-python-sample
 * [Github](https://github.com/Kazuhito00/mediapipe-python-sample)<br>
-* [ブログ](https://qiita.com/Kazuhito/items/222999f134b3b27418cd)
+* [ブログ](https://qiita.com/Kazuhito/items/222999f134b3b27418cd)<br>
 ↑を元に作成しました。Mediapipeの[Hands, Pose, Face Mesh, Holistic]のサンプルアプリを公開してくれています。
 
 ## alert-app-with-face-recognition-using-mediapipe
@@ -14,9 +14,9 @@
 * plyer #notification
 * matplotlib #graph
 
-mediapipeはpipでインストールできます。
-plyerはpython3.9ではインストールできませんでした。(2021/02/14時点)
-python3.7 or 3.8でインストール出来ることを確認しています。
+mediapipeはpipでインストールできます。<br>
+plyerはpython3.9ではインストールできませんでした。(2021/02/14時点)<br>
+python3.7 or 3.8でインストール出来ることを確認しています。<br>
 ```bash
 pip install mediapipe
 pip install plyer
